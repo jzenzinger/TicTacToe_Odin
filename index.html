@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tic Tac Toe</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="icon" href="./icons/tic-tac-toe_icon.png" type="image/x-icon">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header class="header">
+            <i><img src="./icons/tic-tac-toe_icon.png"></i>
+            <h1 class="game-title">Tic-Tac-Toe</h1>
+        </header>
+        <div class="container">
+            <div class="player-info">Players turn</div>
+            <div class="gameboard-wrapper">
+                <div class="field" data-index="0"></div>
+                <div class="field" data-index="1"></div>
+                <div class="field" data-index="2"></div>
+                <div class="field" data-index="3"></div>
+                <div class="field" data-index="4"></div>
+                <div class="field" data-index="5"></div>
+                <div class="field" data-index="6"></div>
+                <div class="field" data-index="7"></div>
+                <div class="field" data-index="8"></div>
+            </div>
+            <div class="restart-button-wrapper">
+                <button class="restart-btn" id="restart-btn">Restart</button>
+            </div>
+        </div>
+        
+        <script src="./main.js" async defer></script>
+    </body>
+</html>
